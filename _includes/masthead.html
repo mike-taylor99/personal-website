@@ -28,6 +28,12 @@
         </a>
       </div>
     {% endif %}
+    {% if user.company %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon organization height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:organization %}
+        {{ user.company }}
+      </div>
+    {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
@@ -50,5 +56,17 @@
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
+  </div>
+
+  <div class="f4 mb-6">
+    <h3 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">Highlights</h3>
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon north-star height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+      Arctic Code Vault Contributor
+    </div>
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon star height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+      <span class="label bg-purple text-uppercase">Pro</span>
+    </div>
   </div>
 {% endif %}
