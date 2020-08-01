@@ -18,6 +18,10 @@
       {% include work.html %}
     </div>
 
+    <div class="my-6">
+      {% include licenses.html %}
+    </div>
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -37,6 +41,8 @@
         {% include education.html %}
 
         {% include work.html %}
+
+        {% include licenses.html %}
 
       </div>
     </div>
