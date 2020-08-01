@@ -26,6 +26,10 @@
       {% include per-proj.html %}
     </div>
 
+    <div class="my-6">
+      {% include involvement.html %}
+    </div>
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -49,6 +53,8 @@
         {% include licenses.html %}
 
         {% include per-proj.html %}
+
+        {% include involvement.html %}
 
       </div>
     </div>

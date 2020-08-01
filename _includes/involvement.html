@@ -1,0 +1,12 @@
+<div class="mb-4">
+    <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Involvement</h2>
+  </div>
+  
+  <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  
+    {% for item in site.data.portfolio.involvement %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include card.html %}
+        </div>
+    {% endfor %}
+  </div>
