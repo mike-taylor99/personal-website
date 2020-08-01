@@ -30,6 +30,10 @@
       {% include involvement.html %}
     </div>
 
+    <div class="my-6">
+      {% include awards.html %}
+    </div>
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -55,6 +59,8 @@
         {% include per-proj.html %}
 
         {% include involvement.html %}
+
+        {% include awards.html %}
 
       </div>
     </div>
