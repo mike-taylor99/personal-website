@@ -149,49 +149,49 @@ involvement:
 
 awards:
   - name: "Travelers UI Olympics: First Place"
-    logo: check-circle
+    logo: checklist
     date: July 2020
     description: Won first place out of over 120 participating Technology Interns in the Travelers UI Olympics with a perfect score in a series of challenges exercising development skills in Angular.
     color: red
 
   - name: Deans List Engineering
-    logo: check-circle
+    logo: checklist
     date: Spring 2019 - Spring 2020
     description: Rank within the upper 25th percentile in the School of Engineering.
     color: orange
 
   - name: IEEE-Eta Kappa Nu (IEEE-HKN)
-    logo: check-circle
+    logo: checklist
     date: Mar. 2020
     description: Admitted into membership in IEEE-Eta Kappa Nu in recognition of excellent scholarship and other attainments by which interest and ability in the profession of Electrical and Computer Engineering have been manifested.
     color: red
 
   - name: 2019 New England scholar
-    logo: check-circle
+    logo: checklist
     date: Mar. 2020
     description: Semester grade point average of at least a 3.7 for the spring and fall semesters of the 2019 calendar year.
     color: blue
 
   - name: IBM Master the Mainframe 2019 Wall of Fame
-    logo: check-circle
+    logo: checklist
     date: Dec. 2019
     description: Demonstrated the ability to innovate on the mainframe by solving real-life situations encountered by experienced systems programmers.
     color: black
 
   - name: "HackUMass VII: Second Place Overall, Best Web App, Wolfram Award"
-    logo: check-circle
+    logo: checklist
     date: Oct. 2019
     description: Won Second Place, Best Web App, and the Wolfram Award out of 74 teams in HackUMass VII with a standout web based application.
     color: pink
 
   - name: Upsilon Pi Epsilon
-    logo: check-circle
+    logo: checklist
     date: Apr. 2019
     description: Admitted into membership in Upsilon Pi Epsilon in recognition of excellent scholarship and other attainments by which interest and ability in the profession of the Computing and Information Disciplines have been manifested.
     color: yellow
 
   - name: N.H.S. Alumni Association Richard Madey Science Award
-    logo: check-circle
+    logo: checklist
     date: May 2017
     description: Awarded to the graduating senior with the highest G.P.A. in Physics, Algebra and either Chemistry or Biology.
     color: green
