@@ -45,28 +45,35 @@ licenses:
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
-    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    description: Gained hands-on practice with topics and services that appear in the Google Cloud Certified Professional Data Engineer Certification.
     color: lime
 
   - name: Explore Machine Learning Models with Explainable AI
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
-    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
-    color: lime
-
-  - name: Insights from Data with BigQuery
-    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
-    logo: shield-check
-    date: Aug. 2020
-    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    description: "Gained hands-on practice with Explainable AI - a set of tools and frameworks to help you develop interpretable and inclusive machine learning models and deploy them with confidence."
     color: lime
 
   - name: Perform Foundational Infrastructure Tasks in Google Cloud
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
-    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    description: Developed valuable skills that are applicable to any Google Cloud initiative.
+    color: lime
+
+  - name: "NCAA® March Madness®: Bracketology with Google Cloud"
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: "Built a Machine Learning Model to predict the outcomes of NCAA March Madness basketball tournament games."
+    color: orange
+
+  - name: Insights from Data with BigQuery
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Learned the best practices for querying and getting insights from your data warehouse.
     color: lime
 
   - name: Create and Manage Cloud Resources
