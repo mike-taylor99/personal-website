@@ -8,13 +8,13 @@ education:
     color: blue
 
 work:
-  - name: Travelers
-    html_url: https://www.travelers.com/
+  - name: Microsoft
+    html_url: https://studentambassadors.microsoft.com/
     logo: organization
-    role: "Technology Intern; Software Engineering"
-    description: TBA
-    date: "June 2021 - Aug. 2021"
-    color: red
+    role: "Learn Student Ambassador"
+    description: "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future."
+    date: "Aug. 2021 - Present"
+    color: yellow
 
   - name: UConn School of Engineering
     html_url: https://www.engr.uconn.edu/
@@ -23,6 +23,14 @@ work:
     description: "Demonstrated excellent skills and responsiveness of instruction as measured by student feedback collected during Spring 2020, achieving an individual performance ranking of over 91% at “exceeded expectations”."
     date: "Jan. 2021 - Present"
     color: orange
+
+  - name: Travelers
+    html_url: https://www.travelers.com/
+    logo: organization
+    role: "Technology Intern; Software Engineering"
+    description: "Developed an analytics dashboard using Splunk, SQL, and Teradata queries to visualize system operations and streamline error catching for EPCR and Network Monitoring, resulting in 90% faster investigations and 82% reduced downtime."
+    date: "June 2021 - Aug. 2021"
+    color: red
 
   - name: "University of Connecticut: Information Technology Services"
     html_url: https://its.uconn.edu/
@@ -33,19 +41,47 @@ work:
     color: blue
 
 licenses:
+  - name: Engineer Data in Google Cloud
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    color: lime
+
+  - name: Explore Machine Learning Models with Explainable AI
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    color: lime
+
+  - name: Insights from Data with BigQuery
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    color: lime
+
+  - name: Perform Foundational Infrastructure Tasks in Google Cloud
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    color: lime
+
+  - name: Create and Manage Cloud Resources
+    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
+    logo: shield-check
+    date: Aug. 2020
+    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
+    color: lime
+
   - name: From Data to Insights with Google Cloud Platform Specialization
     html_url: https://www.coursera.org/account/accomplishments/specialization/certificate/XNY5N9LYPQFR
     logo: shield-check
     date: July 2020
     description: This four-course accelerated online specialization teaches course participants how to derive insights through data analysis and visualization using the Google Cloud Platform.
     color: cyan
-
-  - name: Google Cloud Essesntials
-    html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
-    logo: shield-check
-    date: July 2020
-    description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
-    color: lime
 
   - name: Splunk 7.x Fundamentals Part 1
     html_url: https://drive.google.com/file/d/12RHALreNTd149nHaWsI9Pq88DkJi0YXu/view?usp=sharing
@@ -69,6 +105,14 @@ licenses:
     color: black
 
 projects:
+  - name: UConn UPE Video Tutorials
+    html_url: https://www.youtube.com/channel/UCLN_fRa9QDgufDgxySJ-FTQ/featured?view_as=subscriber
+    logo: repo
+    role: Founder, Content Creator & Manager
+    description: "Founded the UConn UPE Video Tutorials Project, initially releasing about 6 hours worth of tutoring on demand content one month after the project start date to cover Computer Science & Engineering topics."
+    date: July 2020 - Present
+    color: blue
+
   - name: Game Controller
     html_url: https://github.com/brandonmino/GameController
     logo: repo
@@ -143,7 +187,7 @@ involvement:
     html_url: https://lc.uconn.edu/innovationhouse/
     logo: rocket
     role: Floor Mentor
-    date: Aug. 2018 - May. 2019
+    date: Aug. 2017 - May. 2019
     description: "Collaborated with fellow leaders and residents in order to stimulate community bonding by planning events for a floor of 80 residents, resulting in an 18% increase in engagement from the previous year."
     color: cyan
 
