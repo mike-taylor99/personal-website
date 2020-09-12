@@ -11,7 +11,7 @@ work:
   - name: Microsoft
     html_url: https://studentambassadors.microsoft.com/
     logo: organization
-    role: "Learn Student Ambassador"
+    role: "Alpha Student Ambassador"
     description: "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future."
     date: "Aug. 2021 - Present"
     color: yellow
@@ -20,7 +20,7 @@ work:
     html_url: https://www.engr.uconn.edu/
     logo: organization
     role: Undergraduate Teaching Assistant
-    description: "Demonstrated excellent skills and responsiveness of instruction as measured by student feedback collected during Spring 2020, achieving an individual performance ranking of over 91% at “exceeded expectations”."
+    description: "Created, modified, and redesigned course content, review problems, exams, and laboratory content for over 20 learning modules to transition course from former CSE 2300W catalog number to CSE 2301."
     date: "Jan. 2021 - Present"
     color: orange
 
@@ -116,7 +116,7 @@ projects:
     html_url: https://www.youtube.com/channel/UCLN_fRa9QDgufDgxySJ-FTQ/featured?view_as=subscriber
     logo: repo
     role: Founder, Content Creator & Manager
-    description: "Founded the UConn UPE Video Tutorials Project, initially releasing about 6 hours worth of tutoring on demand content one month after the project start date to cover Computer Science & Engineering topics."
+    description: "Founded the UConn UPE Video Tutorials Project, releasing about 6 hours worth of tutoring on demand content one month after the project start date to cover Computer Science & Engineering topics with an initial reach of over 900 students."
     date: July 2020 - Present
     color: blue
 
