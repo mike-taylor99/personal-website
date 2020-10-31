@@ -11,7 +11,7 @@ work:
   - name: Microsoft
     html_url: https://studentambassadors.microsoft.com/
     logo: organization
-    role: "Alpha Student Ambassador"
+    role: "Beta Student Ambassador"
     description: "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future."
     date: "Aug. 2021 - Present"
     color: yellow
@@ -41,6 +41,27 @@ work:
     color: blue
 
 licenses:
+  - name: Foundations of Data Science
+    html_url: https://docs.microsoft.com/en-us/users/michaeltaylor-6972/
+    logo: shield-check
+    date: Sept. 2020
+    description: This course teaches critical concepts and skills in computer programming and statistical inference, in conjunction with hands-on analysis of real-world datasets.
+    color: yellow
+
+  - name: Get Started with Artificial Intelligence on Azure
+    html_url: https://docs.microsoft.com/en-us/users/michaeltaylor-6972/
+    logo: shield-check
+    date: Sept. 2020
+    description: Artificial Intelligence (AI) empowers amazing new solutions and experiences; and Microsoft Azure provides easy to use services to help you get started.
+    color: yellow
+
+  - name: Azure Fundamentals
+    html_url: https://docs.microsoft.com/en-us/users/michaeltaylor-6972/
+    logo: shield-check
+    date: Aug. 2020
+    description: Azure Fundamentals teaches you basic cloud concepts, provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your very first services for free.
+    color: yellow
+
   - name: Engineer Data in Google Cloud
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
