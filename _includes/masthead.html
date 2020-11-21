@@ -68,5 +68,9 @@
       {% octicon star height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
       <span class="label bg-purple text-uppercase">Pro</span>
     </div>
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon mortar-board height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+      GitHub Campus Expert
+    </div>
   </div>
 {% endif %}

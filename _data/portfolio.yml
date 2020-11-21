@@ -8,12 +8,20 @@ education:
     color: blue
 
 work:
+  - name: GitHub
+    html_url: https://githubcampus.expert/mike-taylor99/
+    logo: organization
+    role: "Campus Expert"
+    description: "GitHub Campus Experts enrich the technology communities on their campuses."
+    date: "Nov. 2020 - Present"
+    color: black
+
   - name: Microsoft
     html_url: https://studentambassadors.microsoft.com/
     logo: organization
     role: "Beta Student Ambassador"
     description: "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future."
-    date: "Aug. 2021 - Present"
+    date: "Aug. 2020 - Present"
     color: yellow
 
   - name: UConn School of Engineering
@@ -21,7 +29,7 @@ work:
     logo: organization
     role: Undergraduate Teaching Assistant
     description: "Created, modified, and redesigned course content, review problems, exams, and laboratory content for over 20 learning modules to transition course from former CSE 2300W catalog number to CSE 2301."
-    date: "Jan. 2021 - Present"
+    date: "Jan. 2020 - Present"
     color: orange
 
   - name: Travelers
@@ -29,7 +37,7 @@ work:
     logo: organization
     role: "Technology Intern; Software Engineering"
     description: "Developed an analytics dashboard using Splunk, SQL, and Teradata queries to visualize system operations and streamline error catching for EPCR and Network Monitoring, resulting in 90% faster investigations and 82% reduced downtime."
-    date: "June 2021 - Aug. 2021"
+    date: "June 2020 - Aug. 2020"
     color: red
 
   - name: "University of Connecticut: Information Technology Services"
