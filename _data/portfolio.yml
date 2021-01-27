@@ -2,7 +2,7 @@ education:
   - name: University of Connecticut
     html_url: https://uconn.edu/
     logo: mortar-board
-    gpa: 3.732/4.0
+    gpa: 3.761/4.0
     description: "Computer Science & Engineering; Computational Data Analytics; Mathematics Minor"
     date: "May 2021"
     color: blue
@@ -228,17 +228,17 @@ involvement:
     color: cyan
 
 awards:
+  - name: Deans List Engineering
+    logo: checklist
+    date: Spring 2019 - Fall 2020
+    description: Rank within the upper 25th percentile in the School of Engineering.
+    color: orange
+
   - name: "Travelers UI Olympics: First Place"
     logo: checklist
     date: July 2020
     description: Won first place out of over 120 participating Technology Interns in the Travelers UI Olympics with a perfect score in a series of challenges exercising development skills in Angular.
     color: red
-
-  - name: Deans List Engineering
-    logo: checklist
-    date: Spring 2019 - Spring 2020
-    description: Rank within the upper 25th percentile in the School of Engineering.
-    color: orange
 
   - name: IEEE-Eta Kappa Nu (IEEE-HKN)
     logo: checklist
