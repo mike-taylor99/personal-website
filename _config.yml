@@ -27,6 +27,10 @@ projects:
     forks: true
     projects:
     # - repo-name
+      - personal-website-1
+      - React-Native-Demo-App
+      - Flutter-Demo
+      - gameControllerServer
 
 social_media:
   # behance: your_username
