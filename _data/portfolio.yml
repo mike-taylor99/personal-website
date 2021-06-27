@@ -8,6 +8,14 @@ education:
     color: blue
 
 work:
+  - name: Microsoft
+    html_url: https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/
+    logo: organization
+    role: Software Engineer
+    description: "Artificial Intelligence Platform: Analysis and Experimentation"
+    date: "June 2021 - Present"
+    color: yellow
+
   - name: UConn School of Engineering
     html_url: https://www.engr.uconn.edu/
     logo: organization
@@ -132,7 +140,7 @@ projects:
     description: "SmartEMR is a web-based application designed to empower doctors, nurses, and other healthcare professionals to gain better insights into stored electronic medical records, or EMRs. SmartEMR leverages powerful machine learning tools to provide analysis on key free-form data types, including clinical notes and medical images."
     date: Aug. 2020 - May 2021
     color: blue
-  
+
   - name: Machine Learning on Men’s Basketball (MLMB)
     html_url: https://mike-taylor99.github.io/MLMB-UI/home
     logo: repo
@@ -244,6 +252,12 @@ involvement:
     color: cyan
 
 awards:
+  - name: Cum Laude
+    logo: checklist
+    date: May 2021
+    description: "A class rank in the 75th percentile or above in the School of Engineering."
+    color: orange
+
   - name: Deans List Engineering
     logo: checklist
     date: Fall 2018 - Spring 2021
