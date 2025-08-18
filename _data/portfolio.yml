@@ -11,9 +11,17 @@ work:
   - name: Microsoft
     html_url: https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/
     logo: organization
+    role: Software Engineer II
+    description: "Core AI: AI Foundry Agent Platform, Azure OpenAI"
+    date: "March 2023 - Present"
+    color: blue
+    
+  - name: Microsoft
+    html_url: https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/
+    logo: organization
     role: Software Engineer
-    description: "Artificial Intelligence Platform: Analysis and Experimentation"
-    date: "June 2021 - Present"
+    description: "Artificial Intelligence Platform: Azure Experimentation"
+    date: "June 2021 - Feb. 2023"
     color: yellow
 
   - name: UConn School of Engineering
