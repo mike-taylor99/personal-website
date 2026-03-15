@@ -5,16 +5,24 @@ education:
     gpa: 3.820/4.0
     description: "Computer Science & Engineering; Computational Data Analytics; Mathematics Minor"
     date: "May 2021"
-    color: blue
+    color: "#0366d6"
 
 work:
   - name: Microsoft
-    html_url: https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/
+    html_url: https://www.microsoft.com/en-us/research/people/mictaylor/
+    logo: organization
+    role: Senior Software Engineer
+    description: "Core AI: AI Foundry Agent Platform, Azure OpenAI"
+    date: "Sept. 2025 - Present"
+    color: "#0366d6"
+
+  - name: Microsoft
+    html_url: https://www.microsoft.com/en-us/research/people/mictaylor/
     logo: organization
     role: Software Engineer II
     description: "Core AI: AI Foundry Agent Platform, Azure OpenAI"
-    date: "March 2023 - Present"
-    color: blue
+    date: "March 2023 - Aug. 2025"
+    color: "#0366d6"
     
   - name: Microsoft
     html_url: https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/
@@ -22,7 +30,7 @@ work:
     role: Software Engineer
     description: "Artificial Intelligence Platform: Azure Experimentation"
     date: "June 2021 - Feb. 2023"
-    color: yellow
+    color: "#f9a825"
 
   - name: UConn School of Engineering
     html_url: https://www.engr.uconn.edu/
@@ -30,7 +38,7 @@ work:
     role: Undergraduate Teaching Assistant
     description: "Created, modified, and redesigned course content, review problems, exams, and laboratory content for over 20 learning modules to transition course from former CSE 2300W catalog number to CSE 2301."
     date: "Jan. 2020 - May 2021"
-    color: orange
+    color: "#e36209"
 
   - name: Travelers
     html_url: https://www.travelers.com/
@@ -38,7 +46,7 @@ work:
     role: "Technology Intern"
     description: "Developed an analytics dashboard using Splunk, SQL, and Teradata queries to visualize system operations and streamline error catching for EPCR and Network Monitoring, resulting in 90% faster investigations and 82% reduced downtime."
     date: "June 2020 - Aug. 2020"
-    color: red
+    color: "#d73a49"
 
   - name: "University of Connecticut: Information Technology Services"
     html_url: https://its.uconn.edu/
@@ -46,7 +54,7 @@ work:
     role: Shop Technician
     description: "Troubleshot and resolved hardware, software, and networking issues by working directly with university students and faculty to provide prompt and effective solutions through hands-on equipment analysis and repair."
     date: "Aug. 2018 - Dec. 2019"
-    color: blue
+    color: "#0366d6"
 
 licenses:
   - name: Foundations of Data Science
@@ -54,91 +62,91 @@ licenses:
     logo: shield-check
     date: Sept. 2020
     description: This course teaches critical concepts and skills in computer programming and statistical inference, in conjunction with hands-on analysis of real-world datasets.
-    color: yellow
+    color: "#f9a825"
 
   - name: Get Started with Artificial Intelligence on Azure
     html_url: https://docs.microsoft.com/en-us/users/michaeltaylor-6972/
     logo: shield-check
     date: Sept. 2020
     description: Artificial Intelligence (AI) empowers amazing new solutions and experiences; and Microsoft Azure provides easy to use services to help you get started.
-    color: yellow
+    color: "#f9a825"
 
   - name: Azure Fundamentals
     html_url: https://docs.microsoft.com/en-us/users/michaeltaylor-6972/
     logo: shield-check
     date: Aug. 2020
     description: Azure Fundamentals teaches you basic cloud concepts, provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your very first services for free.
-    color: yellow
+    color: "#f9a825"
 
   - name: Engineer Data in Google Cloud
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: Gained hands-on practice with topics and services that appear in the Google Cloud Certified Professional Data Engineer Certification.
-    color: lime
+    color: "#28a745"
 
   - name: Explore Machine Learning Models with Explainable AI
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: "Gained hands-on practice with Explainable AI - a set of tools and frameworks to help you develop interpretable and inclusive machine learning models and deploy them with confidence."
-    color: lime
+    color: "#28a745"
 
   - name: Perform Foundational Infrastructure Tasks in Google Cloud
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: Developed valuable skills that are applicable to any Google Cloud initiative.
-    color: lime
+    color: "#28a745"
 
   - name: "NCAA® March Madness®: Bracketology with Google Cloud"
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: "Built a Machine Learning Model to predict the outcomes of NCAA March Madness basketball tournament games."
-    color: orange
+    color: "#e36209"
 
   - name: Insights from Data with BigQuery
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: Learned the best practices for querying and getting insights from your data warehouse.
-    color: lime
+    color: "#28a745"
 
   - name: Create and Manage Cloud Resources
     html_url: https://google.qwiklabs.com/public_profiles/3963bc12-bd60-45ed-8ae8-44259e02c84c
     logo: shield-check
     date: Aug. 2020
     description: Gained hands-on practice with the Google Cloud’s fundamental tools and services.
-    color: lime
+    color: "#28a745"
 
   - name: From Data to Insights with Google Cloud Platform Specialization
     html_url: https://www.coursera.org/account/accomplishments/specialization/certificate/XNY5N9LYPQFR
     logo: shield-check
     date: July 2020
     description: This four-course accelerated online specialization teaches course participants how to derive insights through data analysis and visualization using the Google Cloud Platform.
-    color: cyan
+    color: "#0598bc"
 
   - name: Splunk 7.x Fundamentals Part 1
     html_url: https://drive.google.com/file/d/12RHALreNTd149nHaWsI9Pq88DkJi0YXu/view?usp=sharing
     logo: shield-check
     date: May 2020
     description: This course teaches course participants how to search and navigate in Splunk, use fields, get statistics from your data, create reports, dashboards, lookups, and alerts.
-    color: pink
+    color: "#d15e9c"
 
   - name: Architecting with Google Compute Engine Specialization
     html_url: https://www.coursera.org/account/accomplishments/specialization/GQ9NPNMJ849Q
     logo: shield-check
     date: Jan. 2020
     description: In this five-course accelerated specialization, learners explored and deployed solution elements, including infrastructure components such as networks, systems and applications services using Google Cloud Platform, with a focus on Compute Engine.
-    color: cyan
+    color: "#0598bc"
 
   - name: Master the Mainframe 2019 - Part 3
     html_url: https://www.youracclaim.com/badges/2b124001-8a3c-4bca-a30a-a8576f7a4e7f/linked_in_profile
     logo: shield-check
     date: Jan. 2020
     description: This individual has demonstrated their extensive programming skills (advanced commands system navigation) and is able to develop application tasks (C, JAVA, COBOL, assembler and REXX) on the z/OS platform.
-    color: black
+    color: "#24292e"
 
 projects:
   - name: SmartEMR Using Clinical Data Integration
@@ -147,7 +155,7 @@ projects:
     role: Imaging Web Service Developer
     description: "SmartEMR is a web-based application designed to empower doctors, nurses, and other healthcare professionals to gain better insights into stored electronic medical records, or EMRs. SmartEMR leverages powerful machine learning tools to provide analysis on key free-form data types, including clinical notes and medical images."
     date: Aug. 2020 - May 2021
-    color: blue
+    color: "#0366d6"
 
   - name: Machine Learning on Men’s Basketball (MLMB)
     html_url: https://mike-taylor99.github.io/MLMB-UI/home
@@ -155,7 +163,7 @@ projects:
     role: Project Creator
     description: "Machine Learning on Men’s Basketball (MLMB) utilizes boxscore statistics of NCAA Men’s Basketball matchups to generate several Machine Learning models which predict the outcome of a specific NCAA men’s basketball matchup."
     date: Jan. 2021 - Apr. 2021
-    color: orange
+    color: "#e36209"
 
   - name: UConn UPE Video Tutorials
     html_url: https://www.youtube.com/channel/UCLN_fRa9QDgufDgxySJ-FTQ/featured?view_as=subscriber
@@ -163,7 +171,7 @@ projects:
     role: Founder, Content Creator & Manager
     description: "Founded the UConn UPE Video Tutorials Project, releasing about 6 hours worth of tutoring on demand content one month after the project start date to cover Computer Science & Engineering topics with an initial reach of over 900 students."
     date: July 2020 - Sept. 2020
-    color: blue
+    color: "#0366d6"
 
   - name: Game Controller
     html_url: https://github.com/brandonmino/GameController
@@ -171,7 +179,7 @@ projects:
     role: Server-side Developer
     description: "Created a customizable game controller that interacts with a PC by building a desktop application framework utilizing Electron.js, Express.js, and Robot.js which communicates with a React-Native based mobile application."
     date: Jan. 2020 - Apr. 2020
-    color: yellow
+    color: "#f9a825"
 
   - name: ¡Please 4get the Lyrics!
     html_url: https://p4gtl.herokuapp.com/
@@ -179,7 +187,7 @@ projects:
     role: Front End Developer
     description: "Created a karaoke guessing game in 36 hours with a web framework utilizing Express.js, Socket.io, speech to text APIs, the Spotify API, and parsing syllables from .kar karaoke files."
     date: Oct. 2019
-    color: orange
+    color: "#e36209"
 
   - name: Poker-bot
     html_url: https://github.com/mike-taylor99/ACMPoker
@@ -187,7 +195,7 @@ projects:
     role: Developer
     description: "Worked with 5 team members to design a small scale poker-bot that allows users to visualize and simulate poker hands against multiple opponents by creating a Python interface which incorporates TensorFlow."
     date: Mar. 2019 - May 2019
-    color: blue
+    color: "#0366d6"
 
   - name: Laser Transmitter and Receiver Unit
     html_url: https://www.youtube.com/watch?v=hO8qs4QV55k&feature=youtu.be
@@ -195,7 +203,7 @@ projects:
     role: Electrical Engineer
     description: Electric Circuit utilizing operational amplifiers, RLC circuits, and a laser with the goal of transmitting audio signals with little to no background noise/static.
     date: Apr. 2019 - May 2019
-    color: orange
+    color: "#e36209"
 
   - name: Insight
     html_url: https://github.com/brandonmino/HackUConn2019
@@ -203,7 +211,7 @@ projects:
     role: Developer
     description: "Commenced development of an augmented reality product in 24 hours to benefit the hearing impaired by delivering accessible speech-to-text translation and facial recognition capabilities as implemented through Python."
     date: Mar. 2019
-    color: black
+    color: "#24292e"
 
   - name: Personal website
     html_url: https://mtylr.com/
@@ -211,7 +219,7 @@ projects:
     role: Developer
     description: This website was put together to implement self taught skills in web development.
     date: Aug. 2019 - Present
-    color: blue
+    color: "#0366d6"
 
 involvement:
   - name: GitHub
@@ -220,7 +228,7 @@ involvement:
     role: "Campus Expert"
     description: "GitHub Campus Experts enrich the technology communities on their campuses."
     date: "Nov. 2020 - Present"
-    color: black
+    color: "#24292e"
 
   - name: Microsoft
     html_url: https://studentambassadors.microsoft.com/
@@ -228,28 +236,28 @@ involvement:
     role: "Beta Student Ambassador"
     description: "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future."
     date: "Aug. 2020 - Present"
-    color: yellow
+    color: "#f9a825"
 
   - name: Upsilon Pi Epsilon Beta Chapter of Connecticut
     html_url: https://upeengineering.rso.uconn.edu/
     logo: rocket
     role: President
     description: "Doubled member engagement and achieved a 7% increase in student performance for those who sought peer tutoring by promoting the presentation series and weekly peer tutoring sessions for a 50 member organization."
-    color: yellow
+    color: "#f9a825"
 
   - name: UConn Association for Computing Machinery
     html_url: https://uconntact.uconn.edu/organization/acm/
     logo: rocket
     role: Vice-President
     description: "Responsible for the internal affairs and general assembly of the organization by creating an agenda for the topics to be presented on at the weekly meetings."
-    color: cyan
+    color: "#0598bc"
 
   - name: UConn Engineering Ambassadors
     html_url: https://ambassadors.engr.uconn.edu/
     logo: rocket
     role: Presentation Team
     description: "Selected from a pool of over 100 applicants for a year-long professional development program for high-achieving diverse talent based on leadership potential, ability to contribute to this Engineering Ambassadors cohort, and academic success in STEM."
-    color: orange
+    color: "#e36209"
 
   - name: UConn Innovation House Learning Community
     html_url: https://lc.uconn.edu/innovationhouse/
@@ -257,65 +265,65 @@ involvement:
     role: Floor Mentor
     date: Aug. 2017 - May. 2019
     description: "Collaborated with fellow leaders and residents in order to stimulate community bonding by planning events for a floor of 80 residents, resulting in an 18% increase in engagement from the previous year."
-    color: cyan
+    color: "#0598bc"
 
 awards:
   - name: Cum Laude
     logo: checklist
     date: May 2021
     description: "A class rank in the 75th percentile or above in the School of Engineering."
-    color: orange
+    color: "#e36209"
 
   - name: Deans List Engineering
     logo: checklist
     date: Fall 2018 - Spring 2021
     description: Rank within the upper 25th percentile in the School of Engineering.
-    color: orange
+    color: "#e36209"
 
   - name: 2020 Babbidge Scholar
     logo: checklist
     date: Mar. 2021
     description: "Semester grade point average of a 4.0 (without rounding) for the spring and fall semesters of the 2020 calendar year."
-    color: blue
+    color: "#0366d6"
 
   - name: "Travelers UI Olympics: First Place"
     logo: checklist
     date: July 2020
     description: Won first place out of over 120 participating Technology Interns in the Travelers UI Olympics with a perfect score in a series of challenges exercising development skills in Angular.
-    color: red
+    color: "#d73a49"
 
   - name: IEEE-Eta Kappa Nu (IEEE-HKN)
     logo: checklist
     date: Mar. 2020
     description: Admitted into membership in IEEE-Eta Kappa Nu in recognition of excellent scholarship and other attainments by which interest and ability in the profession of Electrical and Computer Engineering have been manifested.
-    color: red
+    color: "#d73a49"
 
   - name: 2019 New England scholar
     logo: checklist
     date: Mar. 2020
     description: Semester grade point average of at least a 3.7 for the spring and fall semesters of the 2019 calendar year.
-    color: blue
+    color: "#0366d6"
 
   - name: IBM Master the Mainframe 2019 Wall of Fame
     logo: checklist
     date: Dec. 2019
     description: Demonstrated the ability to innovate on the mainframe by solving real-life situations encountered by experienced systems programmers.
-    color: black
+    color: "#24292e"
 
   - name: "HackUMass VII: Second Place Overall, Best Web App, Wolfram Award"
     logo: checklist
     date: Oct. 2019
     description: Won Second Place, Best Web App, and the Wolfram Award out of 74 teams in HackUMass VII with a standout web based application.
-    color: pink
+    color: "#d15e9c"
 
   - name: Upsilon Pi Epsilon
     logo: checklist
     date: Apr. 2019
     description: Admitted into membership in Upsilon Pi Epsilon in recognition of excellent scholarship and other attainments by which interest and ability in the profession of the Computing and Information Disciplines have been manifested.
-    color: yellow
+    color: "#f9a825"
 
   - name: N.H.S. Alumni Association Richard Madey Science Award
     logo: checklist
     date: May 2017
     description: Awarded to the graduating senior with the highest G.P.A. in Physics, Algebra and either Chemistry or Biology.
-    color: green
+    color: "#28a745"

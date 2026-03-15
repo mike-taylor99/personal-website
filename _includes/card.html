@@ -10,19 +10,21 @@
       </div>
       <div class="text-gray mb-2 ws-normal">{{ item.description }}</div>
     </div>
-    <div class="d-flex f6">
+    <div class="f6">
       {% if item.date %}
+        <div class="d-flex flex-items-center mb-1">
           <span class="repo-language-color ml-0 mr-1" style="background-color:{{ item.color }}"></span>
-          <span class="mr-3" itemprop="date">{{ item.date }}</span>
+          <span>{{ item.date }}</span>
+        </div>
       {% endif %}
       {% if item.gpa %}
-        <div class="d-inline-block link-gray mr-4">
+        <div class="d-inline-block link-gray mb-1">
           {% octicon star height:14 class:"mr-1 v-align-middle" aria-hidden:true %}{{ item.gpa }}
         </div>
       {% endif %}
       {% if item.role %}
-        <div class="d-inline-block link-gray mr-4">
-          {% octicon briefcase height:14 class:mr-1 %}{{ item.role }}
+        <div class="d-flex flex-items-center link-gray">
+          {% octicon briefcase height:14 class:"mr-1 flex-shrink-0" %}{{ item.role }}
         </div>
       {% endif %}
     </div>

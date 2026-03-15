@@ -51,8 +51,9 @@ social_media:
   # youtube: your_username
 
 welcome:
-  - "I am a Software Engineer II working at Microsoft. I currently work in the Core AI division, contributing to Azure AI Foundry Agent Platform and Azure OpenAI. I graduated from the University of Connecticut in 2021 with a degree in Computer Science & Engineering, concentrating in Computational Data Analytics (now renamed as the Artificial Intelligence concentration)."
-  - "I have a great interest in the application of computation to everyday life and the application of mathematics and sciences involved within the field. My involvement throughout various projects and teams has helped to solidify my software, hardware, and development skills."
+  - "I'm a Senior Software Engineer at Microsoft specializing in AI and agent platforms, focused on building scalable systems and thoughtful developer experiences. I currently work in the Core AI division, contributing to Azure AI Foundry Agent Platform and Azure OpenAI."
+  - "I graduated from the University of Connecticut in 2021 with a degree in Computer Science & Engineering, concentrating in Computational Data Analytics (now renamed as the Artificial Intelligence concentration). I grew a deep interest in machine learning early on, applying it through projects like my web application to predict college basketball game outcomes."
+  - "I'm known for my focus on fundamentals: building platforms that scale, asking hard questions, mentoring others, and holding high standards in service of the team. Outside of work, I play clarinet and saxophone in the Microsoft Open Orchestra and remain a committed college basketball fan."
 
 highlights:
   - icon: north-star
@@ -69,37 +70,43 @@ topics:
   - name: Python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
+  - name: TypeScript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png
+
+  - name: Azure
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png
+
+  - name: Machine Learning
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png
+
+  - name: AI / LLMs
+
+  - name: "C#"
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png
+
   - name: Java
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
 
-  - name: C
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png
-
-  - name: MySQL
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png
-
-  - name: Machine Learning
-
-  - name: Node.js
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
-
-  - name: Git
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png
-  
-  - name: Angular
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
+  - name: JavaScript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
   - name: React
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
 
-  - name: Jekyll
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jekyll/jekyll.png
+  - name: Node.js
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
 
-  - name: JSON
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png
+  - name: Docker
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
 
-  - name: JavaScript
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+  - name: Kubernetes
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png
+
+  - name: MySQL
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png
+
+  - name: Git
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png
 
   - name: HTML
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
@@ -107,9 +114,3 @@ topics:
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
