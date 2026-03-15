@@ -4,7 +4,7 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;" alt="{{ user.name | default: user.login }}">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
@@ -60,17 +60,15 @@
 
   <div class="f4 mb-6">
     <h3 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">Highlights</h3>
-    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-      {% octicon north-star height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-      Arctic Code Vault Contributor
-    </div>
-    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-      {% octicon star height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-      <span class="label bg-purple text-uppercase">Pro</span>
-    </div>
-    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-      {% octicon mortar-board height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
-      GitHub Campus Expert
-    </div>
+    {% for highlight in site.highlights %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon {{ highlight.icon }} height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} %}
+        {% if highlight.badge %}
+          <span class="label bg-purple text-uppercase">{{ highlight.text }}</span>
+        {% else %}
+          {{ highlight.text }}
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
 {% endif %}

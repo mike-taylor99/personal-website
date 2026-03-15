@@ -1,15 +1,8 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Welcome!</h2>
+{% for paragraph in site.welcome %}
 <p class="f4 mb-2 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-    I am a Software Engineer II working at Microsoft. I currently work in the Core AI division,
-    contributing to Azure AI Foundry Agent Platform and Azure OpenAI. I graduated from the
-    University of Connecticut in 2021 with a degree in Computer Science & Engineering,
-    concentrating in Computational Data Analytics (now renamed as the Artificial Intelligence
-    concentration).
+    {{ paragraph }}
 </p>
-<p class="f4 mb-2 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-    I have a great interest in the application of computation to everyday life and the application 
-    of mathematics and sciences involved within the field. My involvement throughout various projects 
-    and teams has helped to solidify my software, hardware, and development skills.
-</p>
+{% endfor %}
 
-<p class="f5 mb-4"><a href="{{ site.url }}{{ site.baseurl | append:'/Portfolio?' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-right height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Portfolio %}Portfolio</a></p>
+<p class="f5 mb-4"><a href="{{ site.url }}{{ site.baseurl | append:'/Portfolio' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-right height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Portfolio %}Portfolio</a></p>

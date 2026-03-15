@@ -4,34 +4,34 @@
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=false %}
 
-    <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
+    <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
 
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
 
     <div class="my-6">
-      {% include education.html %}
+      {% include section.html title="Education" items=site.data.portfolio.education %}
     </div>
 
     <div class="my-6">
-      {% include work.html %}
+      {% include section.html title="Work Experience" items=site.data.portfolio.work %}
     </div>
 
     <div class="my-6">
-      {% include licenses.html %}
+      {% include section.html title="Licenses & Certifications" items=site.data.portfolio.licenses %}
     </div>
 
     <div class="my-6">
-      {% include per-proj.html %}
+      {% include section.html title="Projects" items=site.data.portfolio.projects %}
     </div>
 
     <div class="my-6">
-      {% include involvement.html %}
+      {% include section.html title="Involvement" items=site.data.portfolio.involvement %}
     </div>
 
     <div class="my-6">
-      {% include awards.html %}
+      {% include section.html title="Awards" items=site.data.portfolio.awards %}
     </div>
 
   </div>
@@ -50,17 +50,17 @@
           </div>
         {% endunless %}
 
-        {% include education.html %}
+        {% include section.html title="Education" items=site.data.portfolio.education %}
 
-        {% include work.html %}
+        {% include section.html title="Work Experience" items=site.data.portfolio.work %}
 
-        {% include licenses.html %}
+        {% include section.html title="Licenses & Certifications" items=site.data.portfolio.licenses %}
 
-        {% include per-proj.html %}
+        {% include section.html title="Projects" items=site.data.portfolio.projects %}
 
-        {% include involvement.html %}
+        {% include section.html title="Involvement" items=site.data.portfolio.involvement %}
 
-        {% include awards.html %}
+        {% include section.html title="Awards" items=site.data.portfolio.awards %}
 
       </div>
     </div>

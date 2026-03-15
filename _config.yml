@@ -50,6 +50,21 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
+welcome:
+  - "I am a Software Engineer II working at Microsoft. I currently work in the Core AI division, contributing to Azure AI Foundry Agent Platform and Azure OpenAI. I graduated from the University of Connecticut in 2021 with a degree in Computer Science & Engineering, concentrating in Computational Data Analytics (now renamed as the Artificial Intelligence concentration)."
+  - "I have a great interest in the application of computation to everyday life and the application of mathematics and sciences involved within the field. My involvement throughout various projects and teams has helped to solidify my software, hardware, and development skills."
+
+highlights:
+  - icon: north-star
+    text: Arctic Code Vault Contributor
+  - icon: star
+    text: Pro
+    badge: true
+  - icon: mortar-board
+    text: GitHub Campus Expert
+
+posts_limit: 6
+
 topics:
   - name: Python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
