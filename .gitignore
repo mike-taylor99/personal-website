@@ -1,6 +1,12 @@
 *.gem
 .bundle
+vendor/bundle/
 .sass-cache
+.jekyll-cache/
+.jekyll-metadata
 _site/
 Gemfile.lock
 **/.ruby-version
+
+# macOS
+.DS_Store

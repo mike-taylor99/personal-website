@@ -1,0 +1,48 @@
+{
+  "name": "Jekyll (GitHub Pages)",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+
+  // Install Node.js for any JS-based tooling
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+
+  // Install gems after container creation
+  "postCreateCommand": "bundle config set --local path 'vendor/bundle' && bundle install",
+
+  // Forward Jekyll's default port
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll",
+      "onAutoForward": "notify"
+    }
+  },
+
+  // VS Code customizations
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.ruby-lsp",
+        "sissel.shopify-liquid",
+        "redhat.vscode-yaml",
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "karunamurti.haml"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "files.associations": {
+          "*.html": "liquid"
+        }
+      }
+    }
+  },
+
+  // Set environment variables for Jekyll
+  "containerEnv": {
+    "JEKYLL_ENV": "development",
+    "PAGES_REPO_NWO": "mike-taylor99/personal-website"
+  }
+}
