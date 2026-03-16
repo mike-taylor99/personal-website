@@ -47,6 +47,43 @@
     padding-left: 16px;
     margin-bottom: 0;
   }
+
+  img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 16px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 14px;
+    display: table;
+  }
+
+  th, td {
+    border: 1px solid #dfe2e5;
+    padding: 8px 12px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
 }
 
 .min-height-full {
