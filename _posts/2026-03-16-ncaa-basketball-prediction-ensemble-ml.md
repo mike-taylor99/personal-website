@@ -3,7 +3,7 @@ title: "Incorporating Opponent Defensive Statistics into NCAA Basketball Game Ou
 published: true
 ---
 
-**Project:** MLMB — Machine Learning March Bracket
+**Project:** MLMB — Machine Learning March Bracketology
 
 ---
 
