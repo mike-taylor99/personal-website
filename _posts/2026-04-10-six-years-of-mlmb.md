@@ -7,7 +7,7 @@ published: true
 
 ---
 
-Six years ago, during a pandemic lockdown in my senior year at UConn, I built a scrappy web app to predict March Madness games. What started as a self-imposed one-week sprint has since evolved into a full-stack AI prediction platform spanning three major rewrites, two back-to-back bracket challenge victories, and a bracket that climbed to the 99.8th percentile on ESPN this year. This is the story of MLMB.
+Six years ago, during a pandemic lockdown in my senior year at UConn, I built a scrappy web app to predict March Madness games. What started as a self-imposed one-week sprint has since evolved into a full-stack AI prediction platform with three major rewrites, two back-to-back bracket challenge victories, and a bracket that climbed to the 99.8th percentile on ESPN this year. This is the story of MLMB.
 
 ---
 
@@ -35,7 +35,7 @@ The ML pipeline itself was straightforward but functional: I scraped game-by-gam
 
 For the frontend, I knew just enough Angular to piece together a basic UI. On the backend, I deployed a Flask app on Heroku that loaded the serialized models and exposed prediction endpoints. Looking back, I knew just enough about each technology to cobble it all together, but I definitely did not know the best practices. I didn't understand proper REST API design, so I was essentially passing raw parameters and returning unstructured responses. There's a lot I would do differently if I rebuilt that specific version today. You can see the archived code here: [MLMB-Heroku on GitHub](https://github.com/mike-taylor99/MLMB-Heroku/tree/master).
 
-The sheer scope of what I pulled off in a single week still impresses me when I look back on it. End to end, I had to: scrape and clean historical game data, engineer features from raw box scores, train and evaluate ML models, serialize those models for production use, build and deploy a Flask API on Heroku, web scrape team logos for every NCAA D1 program, and wire up an Angular frontend to call the API and display results with team branding. I spent an entire night figuring out how to properly set up a sticky header and footer. I even had to troubleshoot Heroku's free-tier memory limits. Loading multiple serialized scikit-learn models into a single dyno pushed me past the threshold, and I had to figure out how to trim the model artifacts and optimize memory usage to stay within the free tier.
+The sheer scope of what I pulled off in a single week still impresses me when I look back on it. End to end, I had to scrape and clean historical game data, engineer features from raw box scores, train and evaluate ML models, serialize them for production use, build and deploy a Flask API on Heroku, scrape team logos for every NCAA D1 program, and wire up an Angular frontend to call the API and display results with team branding. I spent an entire night figuring out how to set up a sticky header and footer. I even had to troubleshoot Heroku's free-tier memory limits. Loading multiple serialized scikit-learn models into a single dyno pushed me past the threshold, so I had to trim the model artifacts and optimize memory usage to stay within the free tier.
 
 If I had to compare that week to anything, the closest analogy would be a hackathon, except there was no event, no prize, and no team. This was purely for my own interest and my own drive. I imposed the deadlines on myself, which is funny in retrospect, because nothing would have happened if I didn't deliver. There was nothing to lose.
 
@@ -71,7 +71,7 @@ During those years at AI Platform, our President would host an org-wide March Ma
 
 ![Eric Boyd announcing the 2023 AI Platform bracket challenge results](/assets/images/mlmb-6-years/aip-bracket-challenge-2023.png)
 
-I think people assumed I just got lucky because I picked my own school to win. But I had an entire ML system engineered specifically for this purpose. The 2024 win is the one that really proves the point: nearly everyone in the pool picked UConn that year since they were the defending champions. I still won, which means I was getting more of the *other* picks correct, a direct credit to the models.
+I think people assumed I just got lucky because I picked my own school to win. But I had an entire ML system engineered specifically for this purpose. The 2024 win really proves the point: nearly everyone in the pool picked UConn that year since they were the defending champions. I still won, which means I was getting more of the *other* picks correct, a direct credit to the models.
 
 ![Eric Boyd's 2024 bracket challenge announcement: "Congrats to Michael (who didn't leave his last name, so I'd just be guessing)"](/assets/images/mlmb-6-years/aip-bracket-challenge-2024.png)
 
@@ -139,6 +139,26 @@ That tension is part of what makes MLMB so personal to me. It sits right at the 
 
 ---
 
+## Chasing the Perfect Bracket
+
+At its core, MLMB has always been my attempt at cracking the perfect bracket. The odds are absurd: a 64-team single-elimination bracket has $2^{63}$ possible outcomes, roughly 9.2 quintillion unique combinations. Even if you know basketball, estimates from mathematicians put the odds of perfection at around 1 in 120 billion once you account for seed-matchup probabilities and historical upset rates.
+
+In 2014, Warren Buffett and Quicken Loans put up a **$1 billion prize** for anyone who could fill out a perfect bracket. Nobody came close. No one ever has. The longest verified streak of correct picks to start a tournament is around 50 games out of 63.
+
+I have never seriously expected to get there. But the question that drives this project is: how close can a machine learning system get? Every version of MLMB has been an iteration on that question: better features, better models, better data pipelines, better architecture, all in pursuit of squeezing out another percentage point of accuracy. Getting to the 99.8th percentile this year felt like real, measurable progress toward an answer, even if the perfect bracket remains a statistical impossibility.
+
+But chasing perfection and winning your bracket pool are actually two different problems.
+
+### The Value Pick
+
+Here's the thing about bracket pools: you don't win by picking the most likely outcome for every game. The all-chalk bracket (every favorite wins) is the single most probable bracket, but it's also the most common one in the pool, so it almost never wins. To actually climb the leaderboard, you need to pick correctly where everyone else picks *wrong*.
+
+This is the concept of the "value pick," explained well in [this video by HoopVision68](https://www.youtube.com/watch?v=cbHXrbvEYBw). The idea is simple: if 80% of the public is on Team A but your model says the game is closer to 55/45, picking Team B gives you a massive scoring edge if they win, because almost nobody else in the pool has them advancing. You're not maximizing accuracy, you're maximizing expected value against the field.
+
+This is exactly where MLMB shines. The model doesn't care about seeds, brand names, or media narratives. It looks at rolling statistics, defensive matchup data, and ensemble-averaged probabilities. When the model's output diverges from public consensus, that's a signal. The Abilene Christian pick in 2021 was a value pick. The decisions that pushed me to the 99.8th percentile in 2026 were value picks. Winning the AI Platform bracket challenge two years in a row wasn't luck; it was the model finding edges that the field missed.
+
+---
+
 ## The ML System
 
 If you want the full technical deep dive on the current prediction engine, I wrote that separately here: [Incorporating Opponent Defensive Statistics into NCAA Basketball Game Outcome Prediction: An Ensemble Machine Learning Approach](/2026/03/16/ncaa-basketball-prediction-ensemble-ml/). The short version is this:
@@ -161,7 +181,7 @@ During March Madness, [mlmb.io](https://mlmb.io) saw over **80 unique users**. A
 | User-tracked predictions | 25,877 |
 | AI analyses generated | 312 |
 
-To put those numbers in context: 70,615 predictions means the model ensemble was invoked over 70K times this season, with each request constructing a feature vector from live team stats, running inference across 7 models, averaging probabilities, and writing the result to Cosmos DB. The 25,877 user-tracked predictions represent authenticated activity whose results are persisted and queryable across sessions. And the 312 AI analyses each involved 6 model runs plus an LLM agent call through the Microsoft Foundry Agent Platform, with the full result cached for subsequent lookups.
+To put those numbers in context: 70,615 predictions means the ensemble was invoked over 70K times this season, with each request constructing a feature vector from live team stats, running inference across 7 models, averaging probabilities, and writing the result to Cosmos DB. The 25,877 user-tracked predictions represent authenticated activity whose results are persisted and queryable across sessions. And the 312 AI analyses each involved 6 model runs plus an LLM agent call through the Microsoft Foundry Agent Platform, with the full result cached for subsequent lookups.
 
 ---
 
