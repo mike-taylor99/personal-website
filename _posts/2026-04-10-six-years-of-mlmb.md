@@ -201,6 +201,8 @@ This project has been a solo effort in many ways, but several people have made m
 
 ## The Evolution at a Glance
 
+<div class="table-wrapper" markdown="block">
+
 | Layer | V1 (2021) | V2 (2022–2024) | V3 (2025–2026) |
 |---|---|---|---|
 | **Frontend** | Angular | React + TypeScript | React + TypeScript |
@@ -213,6 +215,8 @@ This project has been a solo effort in many ways, but several people have made m
 | **Auth / Identity** | None | None | OAuth (Microsoft + GitHub) |
 | **AI / LLM Layer** | N/A | N/A | Microsoft Foundry Agent Platform |
 | **Product Surface** | Men's matchup predictions | Men's + Women's matchup predictions | Men's + Women's predictions + analyses + brackets + accounts |
+
+</div>
 
 ---
 

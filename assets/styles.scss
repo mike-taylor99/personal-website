@@ -66,14 +66,14 @@
     width: 100%;
     margin-bottom: 16px;
     font-size: 14px;
-    display: table;
+    display: block;
+    overflow-x: auto;
   }
 
   th, td {
     border: 1px solid #dfe2e5;
     padding: 8px 12px;
     text-align: left;
-    white-space: nowrap;
   }
 
   th {
@@ -83,6 +83,12 @@
 
   tr:nth-child(even) {
     background-color: #f9fafb;
+  }
+
+  .MathJax, .MathJax_Display, mjx-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
   }
 }
 
