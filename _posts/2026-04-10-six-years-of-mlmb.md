@@ -27,7 +27,11 @@ Then came my senior year. I didn't have many classes left because I had front-lo
 
 It was our first year back in the Big East. The men's program was ranked again after a couple of years of rebuilding under Dan Hurley, who had been hired toward the end of my freshman year. When the men's team made the NCAA tournament again for the first time in several years, the excitement was real, and the program was clearly back on the map.
 
-I had actually started laying the groundwork months earlier. Back in December 2020, I began scripting together datasets and feature engineering to train machine learning models in a Jupyter notebook. Nothing fancy, just a way to predict basketball games using what I'd learned in my junior-year ML course.
+I had actually started laying the groundwork months earlier. That summer, I completed Google Cloud's "NCAA March Madness: Bracketology" course, which walked through using BigQuery and ML to predict tournament outcomes. It planted the seed for what came next.
+
+![Google Cloud Bracketology with Google Cloud completion badge, earned August 2020](/assets/images/mlmb-6-years/ncaa_bracketology.png)
+
+In December 2020, I began scripting together datasets and feature engineering to train machine learning models in a Jupyter notebook. Nothing fancy, just a way to predict basketball games using what I'd learned in my junior-year ML course and that Google Cloud course.
 
 But when Selection Sunday hit, something clicked. I spent the entire week between the bracket announcement and the submission deadline building the first version of MLMB, all day and all night. I named it MLMB because the acronym had a ring to it. At the time it stood for "Machine Learning on Men's Basketball," since that was the only dataset freely available. That changed years later when women's basketball data was also made available for free, and I rebranded it to "Machine Learning March Bracketology," keeping the same acronym while broadening the scope.
 
