@@ -23,17 +23,17 @@ The following year, my junior year, I was following both the men's and women's p
 
 ## V1: One Week, Built from Scratch (2021)
 
-Then came my senior year. I didn't have many classes left because I had front-loaded most of my coursework through my first three years and summer sessions, and I had already received my offer to join Microsoft back in October, before I even sat for my first set of senior-year midterms. So I had a lot of free time, and unfortunately, a lockdown to spend it in. I watched a lot of UConn basketball.
+Then came my senior year. I didn't have many classes left because I had front-loaded most of my coursework through my first three years and summer sessions, and I had already received my offer to join Microsoft back in October, before I even sat for my first set of senior-year midterms. So I had a lot of free time, and unfortunately, a lockdown to spend it in.
 
-It was our first year back in the Big East. The men's program was ranked again after a couple of years of rebuilding under Dan Hurley, who had been hired toward the end of my freshman year. When the men's team made the NCAA tournament again for the first time in several years, the excitement was real, and the program was clearly back on the map.
-
-I had actually started laying the groundwork months earlier. That summer, I completed Google Cloud's "NCAA March Madness: Bracketology" course, which walked through using BigQuery and ML to predict tournament outcomes. It planted the seed for what came next.
+That summer, I had completed Google Cloud's "NCAA March Madness: Bracketology" course, which walked through using BigQuery and ML to predict tournament outcomes. It planted the seed for what came next.
 
 ![Google Cloud Bracketology with Google Cloud completion badge, earned August 2020](/assets/images/mlmb-6-years/ncaa_bracketology.png)
 
-In December 2020, I began scripting together datasets and feature engineering to train machine learning models in a Jupyter notebook. Nothing fancy, just a way to predict basketball games using what I'd learned in my junior-year ML course and that Google Cloud course.
+By December 2020, I was scripting together datasets and feature engineering to train machine learning models in a Jupyter notebook. Nothing fancy, just a way to predict basketball games using what I'd learned in my junior-year ML course and that Google Cloud course.
 
-But when Selection Sunday hit, something clicked. I spent the entire week between the bracket announcement and the submission deadline building the first version of MLMB, all day and all night. I named it MLMB because the acronym had a ring to it. At the time it stood for "Machine Learning on Men's Basketball," since that was the only dataset freely available. That changed years later when women's basketball data was also made available for free, and I rebranded it to "Machine Learning March Bracketology," keeping the same acronym while broadening the scope.
+Meanwhile, I was watching a lot of UConn basketball. It was our first year back in the Big East. The men's program was ranked again after a couple of years of rebuilding under Dan Hurley, who had been hired toward the end of my freshman year. When the men's team made the NCAA tournament again for the first time in several years, the excitement was real, and the program was clearly back on the map.
+
+When Selection Sunday hit, something clicked. I spent the entire week between the bracket announcement and the submission deadline building the first version of MLMB, all day and all night. I named it MLMB because the acronym had a ring to it. At the time it stood for "Machine Learning on Men's Basketball," since that was the only dataset freely available. That changed years later when women's basketball data was also made available for free, and I rebranded it to "Machine Learning March Bracketology," keeping the same acronym while broadening the scope.
 
 The ML pipeline itself was straightforward but functional: I scraped game-by-game box score data, computed rolling averages of team statistics as features, and trained scikit-learn classifiers to predict game outcomes as a binary classification (win/loss). The features were things like field goal percentage, rebounds, turnovers, and pace, all aggregated over a team's recent games to capture current form. I serialized the trained models with `joblib` so they could be loaded at inference time.
 
