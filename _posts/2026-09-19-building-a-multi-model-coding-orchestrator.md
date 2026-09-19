@@ -1,6 +1,6 @@
 ---
 title: "The Summer We Built an AI Software Factory"
-published: false
+published: true
 ---
 
 **Project:** Work Automation
