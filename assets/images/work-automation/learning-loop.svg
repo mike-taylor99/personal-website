@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Work Automation learning loop</title>
+  <desc id="desc">The pipeline runs, a failure is observed, a lesson is written down, a person approves it, and the approved memory improves the next pipeline run.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f8fa"/>
+      <stop offset="1" stop-color="#f3efff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1f2328" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8250df"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="720" rx="30" fill="url(#background)"/>
+  <text x="500" y="58" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#1f2328">Every run leaves the next one smarter</text>
+  <text x="500" y="91" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#57606a">The models do not retrain themselves—the system remembers approved lessons</text>
+
+  <g fill="none" stroke="#8250df" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M640 190 C760 205 815 270 815 328"/>
+    <path d="M775 455 C725 520 690 570 652 570"/>
+    <path d="M348 570 C265 560 215 510 205 457"/>
+    <path d="M190 328 C200 240 285 190 348 190"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="350" y="125" width="300" height="125" rx="22" fill="#0969da"/>
+      <circle cx="405" cy="172" r="25" fill="#ffffff" fill-opacity=".2"/>
+      <text x="405" y="180" text-anchor="middle" font-size="21" font-weight="700" fill="#ffffff">1</text>
+      <text x="520" y="177" text-anchor="middle" font-size="25" font-weight="700" fill="#ffffff">Run</text>
+      <text x="500" y="215" text-anchor="middle" font-size="16" fill="#dbeafe">The agent team tackles the work</text>
+    </g>
+
+    <g>
+      <rect x="660" y="330" width="300" height="125" rx="22" fill="#ffffff" stroke="#fb8f44" stroke-width="3"/>
+      <circle cx="710" cy="377" r="25" fill="#fff1e5"/>
+      <text x="710" y="385" text-anchor="middle" font-size="21" font-weight="700" fill="#bc4c00">2</text>
+      <text x="820" y="382" text-anchor="middle" font-size="25" font-weight="700" fill="#1f2328">Observe</text>
+      <text x="810" y="420" text-anchor="middle" font-size="15" fill="#57606a">Find what failed or surprised us</text>
+    </g>
+
+    <g>
+      <rect x="350" y="515" width="300" height="125" rx="22" fill="#ffffff" stroke="#a371f7" stroke-width="3"/>
+      <circle cx="405" cy="562" r="25" fill="#fbefff"/>
+      <text x="405" y="570" text-anchor="middle" font-size="21" font-weight="700" fill="#8250df">3</text>
+      <text x="520" y="567" text-anchor="middle" font-size="25" font-weight="700" fill="#1f2328">Reflect</text>
+      <text x="500" y="605" text-anchor="middle" font-size="16" fill="#57606a">Write down a reusable lesson</text>
+    </g>
+
+    <g>
+      <rect x="40" y="330" width="300" height="125" rx="22" fill="#ffffff" stroke="#2da44e" stroke-width="3"/>
+      <circle cx="90" cy="377" r="25" fill="#dafbe1"/>
+      <text x="90" y="385" text-anchor="middle" font-size="21" font-weight="700" fill="#1a7f37">4</text>
+      <text x="205" y="382" text-anchor="middle" font-size="25" font-weight="700" fill="#1f2328">Approve</text>
+      <text x="190" y="420" text-anchor="middle" font-size="16" fill="#57606a">A human checks the lesson</text>
+    </g>
+  </g>
+
+  <circle cx="500" cy="382" r="114" fill="#ffffff" stroke="#a371f7" stroke-width="4" filter="url(#shadow)"/>
+  <circle cx="500" cy="350" r="30" fill="#fbefff"/>
+  <path d="M486 350 l10 10 20-23" fill="none" stroke="#8250df" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="500" y="406" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#1f2328">Persistent</text>
+  <text x="500" y="433" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#1f2328">Memory</text>
+  <text x="500" y="465" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#57606a">Guides the next run</text>
+</svg>

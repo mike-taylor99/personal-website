@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1540" viewBox="0 0 1000 1540" role="img" aria-labelledby="title desc">
+  <title id="title">The final Work Automation system</title>
+  <desc id="desc">An orchestrator runs several isolated pipelines concurrently. Each pipeline may contain one repository or multiple repositories that must work together. One pipeline is expanded to show research, planning, independent review by Claude, GPT, Codex, and Gemini, revision, implementation, validation, pull request and continuous integration, and a post-mortem. Every pipeline records durable state, and proposed lessons require human approval before entering repository memory.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f8fa"/>
+      <stop offset="1" stop-color="#eef3f8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#0550ae"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1f2328" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#57606a"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8250df"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="1540" rx="30" fill="url(#background)"/>
+  <text x="500" y="54" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#1f2328">The final Work Automation system</text>
+  <text x="500" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" fill="#57606a">One work item can span one repository or several that must build and run together</text>
+
+  <g filter="url(#shadow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="70" y="120" width="650" height="115" rx="22" fill="url(#blue)"/>
+    <text x="395" y="164" text-anchor="middle" font-size="27" font-weight="700" fill="#ffffff">Orchestrator + Scheduler</text>
+    <text x="395" y="195" text-anchor="middle" font-size="16" fill="#dbeafe">Queues work, creates isolated environments,</text>
+    <text x="395" y="217" text-anchor="middle" font-size="16" fill="#dbeafe">and resumes blocked runs</text>
+
+    <rect x="760" y="120" width="170" height="115" rx="22" fill="#ffffff" stroke="#54aeff" stroke-width="3"/>
+    <text x="845" y="158" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Durable</text>
+    <text x="845" y="181" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Pipeline State</text>
+    <text x="845" y="209" text-anchor="middle" font-size="13" fill="#57606a">Persist + resume</text>
+  </g>
+
+  <g fill="none" stroke="#54aeff" stroke-width="3" stroke-linecap="round">
+    <path d="M720 164 H757" marker-end="url(#arrow-gray)"/>
+    <path d="M760 201 H723" marker-end="url(#arrow-gray)"/>
+  </g>
+
+  <g fill="none" stroke="#57606a" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-gray)">
+    <path d="M500 225 V280"/>
+    <path d="M500 280 H190 V304"/>
+    <path d="M500 280 V304"/>
+    <path d="M500 280 H810 V304"/>
+  </g>
+  <rect x="650" y="240" width="230" height="30" rx="15" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="765" y="261" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#57606a">RUNNING CONCURRENTLY</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="55" y="305" width="270" height="225" rx="22" fill="#ffffff" stroke="#54aeff" stroke-width="3"/>
+      <rect x="75" y="324" width="230" height="52" rx="14" fill="#0969da"/>
+      <circle cx="100" cy="350" r="10" fill="#7ee787"/>
+      <text x="190" y="357" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">Pipeline A</text>
+      <text x="190" y="401" text-anchor="middle" font-size="15" font-weight="700" fill="#57606a">SINGLE-REPO WORKSPACE</text>
+      <rect x="100" y="425" width="180" height="50" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="190" y="456" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Repository</text>
+      <text x="190" y="507" text-anchor="middle" font-size="14" font-weight="700" fill="#1a7f37">RUNNING</text>
+    </g>
+
+    <g>
+      <rect x="365" y="305" width="270" height="225" rx="22" fill="#ffffff" stroke="#0969da" stroke-width="4"/>
+      <rect x="385" y="324" width="230" height="52" rx="14" fill="#0969da"/>
+      <circle cx="410" cy="350" r="10" fill="#7ee787"/>
+      <text x="500" y="357" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">Pipeline B</text>
+      <text x="500" y="401" text-anchor="middle" font-size="15" font-weight="700" fill="#57606a">MULTI-REPO WORKSPACE</text>
+      <rect x="392" y="425" width="90" height="50" rx="13" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="437" y="456" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2328">Repo 1</text>
+      <text x="500" y="458" text-anchor="middle" font-size="22" font-weight="700" fill="#57606a">+</text>
+      <rect x="518" y="425" width="90" height="50" rx="13" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="563" y="456" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2328">Repo 2</text>
+      <text x="500" y="508" text-anchor="middle" font-size="14" font-weight="700" fill="#0969da">EXPANDED BELOW</text>
+    </g>
+
+    <g>
+      <rect x="675" y="305" width="270" height="225" rx="22" fill="#ffffff" stroke="#54aeff" stroke-width="3"/>
+      <rect x="695" y="324" width="230" height="52" rx="14" fill="#0969da"/>
+      <circle cx="720" cy="350" r="10" fill="#7ee787"/>
+      <text x="810" y="357" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">Pipeline C</text>
+      <text x="810" y="401" text-anchor="middle" font-size="15" font-weight="700" fill="#57606a">SINGLE-REPO WORKSPACE</text>
+      <rect x="720" y="425" width="180" height="50" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="810" y="456" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Repository</text>
+      <text x="810" y="507" text-anchor="middle" font-size="14" font-weight="700" fill="#1a7f37">RUNNING</text>
+    </g>
+  </g>
+
+  <path d="M500 530 V573" fill="none" stroke="#0969da" stroke-width="4" marker-end="url(#arrow-gray)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" filter="url(#shadow)">
+    <rect x="80" y="575" width="840" height="650" rx="28" fill="#ffffff" stroke="#0969da" stroke-width="4"/>
+    <rect x="105" y="600" width="790" height="60" rx="17" fill="#0969da"/>
+    <text x="500" y="627" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">Inside Pipeline B</text>
+    <text x="500" y="650" text-anchor="middle" font-size="14" fill="#dbeafe">BOTH REPOSITORIES SHARE THE SAME ISOLATED TOOLS, PROCESSES, AND NETWORK</text>
+
+    <rect x="145" y="700" width="250" height="64" rx="16" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+    <text x="270" y="728" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2328">Research Agent</text>
+    <text x="270" y="751" text-anchor="middle" font-size="14" fill="#57606a">Loads repository memory</text>
+    <rect x="605" y="700" width="250" height="64" rx="16" fill="#ddf4ff" stroke="#54aeff" stroke-width="2"/>
+    <text x="730" y="739" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2328">Planning Agent</text>
+
+    <rect x="140" y="805" width="720" height="225" rx="22" fill="#fbefff" stroke="#a371f7" stroke-width="3"/>
+    <text x="500" y="833" text-anchor="middle" font-size="20" font-weight="700" fill="#6639ba">INDEPENDENT MULTI-MODEL REVIEW</text>
+    <g font-size="18" font-weight="700" fill="#1f2328">
+      <rect x="165" y="875" width="150" height="58" rx="14" fill="#ffffff" stroke="#a371f7"/>
+      <text x="240" y="911" text-anchor="middle">Claude</text>
+      <rect x="340" y="875" width="150" height="58" rx="14" fill="#ffffff" stroke="#a371f7"/>
+      <text x="415" y="911" text-anchor="middle">GPT</text>
+      <rect x="515" y="875" width="150" height="58" rx="14" fill="#ffffff" stroke="#a371f7"/>
+      <text x="590" y="911" text-anchor="middle">Codex</text>
+      <rect x="690" y="875" width="145" height="58" rx="14" fill="#ffffff" stroke="#a371f7"/>
+      <text x="762" y="911" text-anchor="middle">Gemini</text>
+    </g>
+    <rect x="280" y="957" width="440" height="52" rx="14" fill="#ffffff" stroke="#a371f7" stroke-width="2"/>
+    <text x="500" y="980" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Synthesize the verdicts</text>
+    <text x="500" y="1000" text-anchor="middle" font-size="14" fill="#6639ba">One evidence-backed blocker sends the plan back</text>
+
+    <rect x="115" y="1100" width="170" height="70" rx="16" fill="#dafbe1" stroke="#2da44e" stroke-width="2"/>
+    <text x="200" y="1131" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">Implementation</text>
+    <text x="200" y="1153" text-anchor="middle" font-size="14" fill="#57606a">Agent</text>
+    <rect x="315" y="1100" width="170" height="70" rx="16" fill="#dafbe1" stroke="#2da44e" stroke-width="2"/>
+    <text x="400" y="1131" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Validation</text>
+    <text x="400" y="1153" text-anchor="middle" font-size="14" fill="#57606a">Agent</text>
+    <rect x="515" y="1100" width="170" height="70" rx="16" fill="#ddf4ff" stroke="#54aeff" stroke-width="2"/>
+    <text x="600" y="1131" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Pull Request</text>
+    <text x="600" y="1153" text-anchor="middle" font-size="14" fill="#57606a">+ CI watch</text>
+    <rect x="715" y="1100" width="170" height="70" rx="16" fill="#fff1e5" stroke="#fb8f44" stroke-width="2"/>
+    <text x="800" y="1131" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">Post-Mortem</text>
+    <text x="800" y="1153" text-anchor="middle" font-size="14" fill="#57606a">Agent</text>
+  </g>
+
+  <g fill="none" stroke="#57606a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-gray)">
+    <path d="M395 732 H602"/>
+    <path d="M730 764 V850"/>
+    <path d="M500 1030 V1062 H200 V1097"/>
+    <path d="M285 1135 H312"/>
+    <path d="M485 1135 H512"/>
+    <path d="M685 1135 H712"/>
+  </g>
+
+  <g fill="none" stroke="#8250df" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-purple)">
+    <path d="M730 850 H240 V872"/>
+    <path d="M730 850 H415 V872"/>
+    <path d="M730 850 H590 V872"/>
+    <path d="M730 850 H762 V872"/>
+    <path d="M240 933 V946 H500 V954"/>
+    <path d="M415 933 V946 H500 V954"/>
+    <path d="M590 933 V946 H500 V954"/>
+    <path d="M762 933 V946 H500 V954"/>
+  </g>
+
+  <path d="M720 983 H890 V680 H730 V697" fill="none" stroke="#8250df" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#arrow-purple)"/>
+  <rect x="748" y="663" width="128" height="34" rx="17" fill="#fbefff" stroke="#a371f7"/>
+  <text x="812" y="686" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#6639ba">REVISE PLAN</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" filter="url(#shadow)">
+    <rect x="150" y="1280" width="700" height="205" rx="25" fill="#ffffff" stroke="#8250df" stroke-width="3"/>
+    <text x="500" y="1318" text-anchor="middle" font-size="23" font-weight="700" fill="#6639ba">Human-approved learning</text>
+
+    <rect x="200" y="1340" width="170" height="105" rx="17" fill="#fff1e5" stroke="#fb8f44" stroke-width="2"/>
+    <text x="285" y="1375" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Proposed</text>
+    <text x="285" y="1398" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Lessons</text>
+    <text x="285" y="1425" text-anchor="middle" font-size="14" fill="#57606a">From post-mortems</text>
+
+    <rect x="415" y="1340" width="170" height="105" rx="17" fill="#dafbe1" stroke="#2da44e" stroke-width="2"/>
+    <text x="500" y="1387" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Human Approval</text>
+    <text x="500" y="1417" text-anchor="middle" font-size="14" fill="#57606a">Required gate</text>
+
+    <rect x="630" y="1340" width="170" height="105" rx="17" fill="#fbefff" stroke="#a371f7" stroke-width="2"/>
+    <text x="715" y="1375" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Repository</text>
+    <text x="715" y="1398" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2328">Memory</text>
+    <text x="715" y="1425" text-anchor="middle" font-size="14" fill="#57606a">Loaded by future runs</text>
+  </g>
+
+  <g fill="none" stroke="#8250df" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-purple)">
+    <path d="M370 1392 H412"/>
+    <path d="M585 1392 H627"/>
+  </g>
+
+  <path d="M800 1170 V1250 H285 V1337" fill="none" stroke="#8250df" stroke-width="3" marker-end="url(#arrow-purple)"/>
+</svg>
